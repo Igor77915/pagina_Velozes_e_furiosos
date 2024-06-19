@@ -1,0 +1,38 @@
+@use'variaveis';
+
+.hero{
+    padding: 65px;
+    height: 100%;
+    background-image: url(../images/hero.jpeg);
+    text-align: center;
+    background-size: cover;
+
+    &__content{
+        max-width: 640px;
+
+        &__branding{
+            max-width: 320px;
+            margin: 0 auto;
+        }
+        .title--small{
+            margin-top: 50px;
+            margin-bottom: 64px;
+        }
+        &__combos{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            &__combo{
+                width: 100px ;
+                
+            }
+        }
+        
+    }
+    p{
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+        margin-bottom: 350px;
+        margin-top: 30px;
+    }
+}
